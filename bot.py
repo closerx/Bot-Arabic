@@ -19,7 +19,7 @@ def text_to_voice(text):
 		
 
 
-token="1859063100:AAGgsoI-KQCoSdbIglULyebnxuuXXQG-KNY"
+token="add token here"
 bot=telebot.TeleBot(token)
 
 @bot.message_handler(commands=["start"])

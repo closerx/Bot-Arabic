@@ -43,6 +43,7 @@ def fuc(msg):
 	
 	if text_to_voice(text) ==True:
 		bot.send_audio(chat_id=msg.chat.id,
+                performer="bycloserx",
 		audio=open("sound.mp3","rb"))
 	else:
 		bot.reply_to(msg,text="حاول موة اخرى")

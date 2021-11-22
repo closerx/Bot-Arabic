@@ -1,8 +1,2 @@
 pyTelegramBotAPI
-pandas
-lxml
-Cython
-tulipy
-websocket-client
-gunicorn
-python-binance
+requests
